@@ -1,3 +1,7 @@
+# PHP Cli Dockerfile
+
+# A common usage would be for testing code in a project which don't need a php server (eg: denpendency)
+
 FROM php:7.0-cli
 
 RUN echo 'Acquire::By-Hash "yes";' >> /etc/apt/apt.conf
